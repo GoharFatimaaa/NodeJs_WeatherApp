@@ -1,0 +1,30 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <title>Weather App</title>
+</head>
+<body>
+    {{>header}}
+    {{>footer}}
+    <h1>{{title}}</h1>
+    
+  <form action="" method="get" class="form-example">
+  <div class="form-example">
+    <label for="name">Enter the location to search: </label>
+    <input type="text" name="name" id="name" required>
+  </div>
+  <div class="form-example">
+    <input type="submit" value="Search!">
+  </div>
+</form>
+   <p id="msg-1"></p>
+   <p id="msg-2"></p>
+    {{!-- <img src="./images/download.jfif"> --}}
+    <script src="/js/app.js"></script>
+</body>
+</html>
